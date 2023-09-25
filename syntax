@@ -1,0 +1,35 @@
+
+~*~
+I need to build my namespace parser and figure out napespace an shit like that
+~*~
+
+fn main(Str *args) -> Str {
+    a = 1.021;
+    a++;
+    rem a;
+    return "successsssss"; 
+}
+
+~*~
+Int
+Dec
+Str
+Bool
+Char
+List
+Dict
+Set
+nil
+~*~
+
+~*~
+order these namespaces in the order which will always execute without any errors:
+classes, functions, async functions, structs, enums
+
+1. enums
+2. structs
+3. classes
+4. functions
+5. async functions
+
+~*~
