@@ -6,6 +6,7 @@ import helix.classes.TokenizedResult;
 
 public class GlobalVariables {
     public static ArrayList<TokenizedResult> preResults = new ArrayList<>();
+    
     public enum DataTypes {
         STRING("Str", "str"),
         INTEGER("Int", "int"),
@@ -53,6 +54,7 @@ public class GlobalVariables {
         YELD("next", "yield"),
         ASYNC("async", "async"),
         WITH("with", "with"),
+        REM("rem", "del"),
         END("end", "pass");
 
         public String syntax;

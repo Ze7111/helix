@@ -19,6 +19,14 @@ public class Namespace extends Object {
     }
 
     public String toString() {
-        return "Namespace(nameOfNamespace=" + this.nameOfNamespace + ", typeOfNameSpace=" + this.typeOfNameSpace + ", functions=" + this.functions + ", lines=" + this.lines + " )";
+        return "Namespace(nameOfNamespace="
+              + this.nameOfNamespace
+              + ", typeOfNameSpace="
+              + this.typeOfNameSpace
+              + ", functions="
+              + this.functions
+              + ", lines="
+              + this.lines
+              + " )";
     }
 }
